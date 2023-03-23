@@ -1,0 +1,53 @@
+.add-button, .remove-button, .refresh-button {
+  position: absolute;
+  right: 100px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.add-button {
+  background-color: #0D8EDB;
+  top: 450px;
+}
+
+.remove-button {
+  background-color: #DD1122;
+  top: 550px;
+}
+
+.refresh-button {
+  background-color: #0EABA9;
+  top: 650px;
+}
+
+.add-button:hover {
+  background-color: #0D8EDB;
+}
+
+.remove-button:hover {
+  background-color: #DD1122;
+}
+
+.refresh-button:hover {
+  background-color: #0EABA9;
+}
+
+.add-button .remove-button .refresh-button svg {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+
+.node {
+  cursor: pointer;
+}
+.how-to {
+  display: flex;
+  justify-content: center;
+}
